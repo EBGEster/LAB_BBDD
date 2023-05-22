@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-05-2023 a las 13:55:03
+-- Tiempo de generación: 22-05-2023 a las 14:14:19
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -48,9 +48,9 @@ INSERT INTO `empleado` (`nombre`, `apellido`, `email`) VALUES
 
 CREATE TABLE `usuario` (
   `id` int(255) NOT NULL,
-  `nombre` varchar(100) NOT NULL,
-  `apellido` varchar(50) NOT NULL,
-  `email` varchar(50) NOT NULL
+  `nombre` varchar(20) NOT NULL,
+  `apellido` varchar(20) NOT NULL,
+  `email` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
